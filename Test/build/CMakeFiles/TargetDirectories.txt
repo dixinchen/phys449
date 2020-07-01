@@ -1,0 +1,8 @@
+/Users/dchen/Documents/test2/test/build/CMakeFiles/install/local.dir
+/Users/dchen/Documents/test2/test/build/CMakeFiles/install/strip.dir
+/Users/dchen/Documents/test2/test/build/CMakeFiles/install.dir
+/Users/dchen/Documents/test2/test/build/CMakeFiles/list_install_components.dir
+/Users/dchen/Documents/test2/test/build/CMakeFiles/rebuild_cache.dir
+/Users/dchen/Documents/test2/test/build/CMakeFiles/edit_cache.dir
+/Users/dchen/Documents/test2/test/build/CMakeFiles/B1.dir
+/Users/dchen/Documents/test2/test/build/CMakeFiles/Test.dir

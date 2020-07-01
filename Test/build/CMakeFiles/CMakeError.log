@@ -1,0 +1,84 @@
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: /Users/dchen/Documents/test2/Test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e4f99/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e4f99.dir/build.make CMakeFiles/cmTC_e4f99.dir/build
+Building CXX object CMakeFiles/cmTC_e4f99.dir/CheckSymbolExists.cxx.o
+cd /Users/dchen/Documents/test2/test/build/CMakeFiles/CMakeTmp && /Library/Developer/CommandLineTools/usr/bin/c++  -I/usr/local/include -F/usr/local/lib -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/cmTC_e4f99.dir/CheckSymbolExists.cxx.o -c /Users/dchen/Documents/test2/test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/dchen/Documents/test2/test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_X11'
+  return ((int*)(&Q_WS_X11))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_e4f99.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_e4f99/fast] Error 2
+
+
+File /Users/dchen/Documents/test2/Test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /Users/dchen/Documents/test2/Test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bef6f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bef6f.dir/build.make CMakeFiles/cmTC_bef6f.dir/build
+Building CXX object CMakeFiles/cmTC_bef6f.dir/CheckSymbolExists.cxx.o
+cd /Users/dchen/Documents/test2/test/build/CMakeFiles/CMakeTmp && /Library/Developer/CommandLineTools/usr/bin/c++  -I/usr/local/include -F/usr/local/lib -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/cmTC_bef6f.dir/CheckSymbolExists.cxx.o -c /Users/dchen/Documents/test2/test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/dchen/Documents/test2/test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_WIN'
+  return ((int*)(&Q_WS_WIN))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_bef6f.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_bef6f/fast] Error 2
+
+
+File /Users/dchen/Documents/test2/Test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /Users/dchen/Documents/test2/Test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62f66/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_62f66.dir/build.make CMakeFiles/cmTC_62f66.dir/build
+Building CXX object CMakeFiles/cmTC_62f66.dir/CheckSymbolExists.cxx.o
+cd /Users/dchen/Documents/test2/test/build/CMakeFiles/CMakeTmp && /Library/Developer/CommandLineTools/usr/bin/c++  -I/usr/local/include -F/usr/local/lib -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/cmTC_62f66.dir/CheckSymbolExists.cxx.o -c /Users/dchen/Documents/test2/test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/dchen/Documents/test2/test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_QWS'
+  return ((int*)(&Q_WS_QWS))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_62f66.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_62f66/fast] Error 2
+
+
+File /Users/dchen/Documents/test2/Test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
