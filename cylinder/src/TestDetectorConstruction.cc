@@ -59,11 +59,11 @@ G4VPhysicalVolume* TestDetectorConstruction::Construct()  //construct geometry i
   //     
   // Plastic column
   //
-  G4Material* Polythene = new G4Material("Polythene",0.945*g/cm3,2,kStateSolid,293.15*kelvin);
+  G4Material* polythene = new G4Material("Polythene",0.945*g/cm3,2,kStateSolid,293.15*kelvin);
 
   G4Tubs* solidColumn = new G4Tubs("column", 0, 4.*cm, 3.5*cm, 0, 360.);
 
-  G4LogicalVolume* logicColumn = new G4LogicalVolume(solidColumn, Polythene, "column");
+  G4LogicalVolume* logicColumn = new G4LogicalVolume(solidColumn, polythene, "column");
 
   G4ThreeVector posColumn = G4ThreeVector(0, 0, 1.5);
   new G4PVPlacement(0,
@@ -78,10 +78,6 @@ G4VPhysicalVolume* TestDetectorConstruction::Construct()  //construct geometry i
   //
   // Copper cylinder
   //
-  // G4double density2 = 8.96*g/cm3;
-  // G4double a = 63.54*g/mole;
-  // G4double z = 29.;
-  // G4Material* copper = new G4Material("Copper",z,a,density2);
   G4Material* copper = nist->FindOrBuildMaterial("G4_Cu");
 
   G4Tubs* solidShell = new G4Tubs("shell", 5.*cm, 7.*cm, 4.*cm, 0, 360.);  
