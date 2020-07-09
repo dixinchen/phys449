@@ -1,0 +1,8 @@
+/Users/dchen/Documents/phys449/Box/build/CMakeFiles/install/local.dir
+/Users/dchen/Documents/phys449/Box/build/CMakeFiles/install/strip.dir
+/Users/dchen/Documents/phys449/Box/build/CMakeFiles/install.dir
+/Users/dchen/Documents/phys449/Box/build/CMakeFiles/list_install_components.dir
+/Users/dchen/Documents/phys449/Box/build/CMakeFiles/rebuild_cache.dir
+/Users/dchen/Documents/phys449/Box/build/CMakeFiles/edit_cache.dir
+/Users/dchen/Documents/phys449/Box/build/CMakeFiles/B1.dir
+/Users/dchen/Documents/phys449/Box/build/CMakeFiles/Test.dir

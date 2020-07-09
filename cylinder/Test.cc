@@ -9,7 +9,7 @@
 #endif
 
 #include "G4UImanager.hh"
-#include "QBBC.hh"
+#include "QGSP_BIC_HP.hh"
 
 #include "G4VisExecutive.hh"
 #include "G4UIExecutive.hh"
@@ -38,7 +38,7 @@ int main(int argc, char** argv)
   runManager->SetUserInitialization(new TestDetectorConstruction());
 
   // Physics list
-  G4VModularPhysicsList* physicsList = new QBBC;
+  G4VModularPhysicsList* physicsList = new QGSP_BIC_HP;
   physicsList->SetVerboseLevel(1);
   runManager->SetUserInitialization(physicsList);
     
