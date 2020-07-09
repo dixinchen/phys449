@@ -68,11 +68,11 @@ G4VPhysicalVolume* TestDetectorConstruction::Construct()  //construct geometry i
   polythene->AddElement(el_H,0.143711);
   polythene->AddElement(el_C,0.856289);
 
-  G4Tubs* solidColumn = new G4Tubs("column", 0, 4.*cm, 3.*cm, 0, 360.);
+  G4Tubs* solidColumn = new G4Tubs("column", 0, 4.*cm, 3.5*cm, 0, 360.);
 
   G4LogicalVolume* logicColumn = new G4LogicalVolume(solidColumn, polythene, "column");
 
-  G4ThreeVector posColumn = G4ThreeVector(0*cm, 0*cm, 2.0*cm);
+  G4ThreeVector posColumn = G4ThreeVector(0*cm, 0*cm, -1.5*cm);
   new G4PVPlacement(0,
                     posColumn,
                     logicColumn,
@@ -93,7 +93,7 @@ G4VPhysicalVolume* TestDetectorConstruction::Construct()  //construct geometry i
   G4LogicalVolume* logicShell = new G4LogicalVolume(solidShell, copper, "shell");
   G4LogicalVolume* logicLid = new G4LogicalVolume(solidLid, copper, "lid");
 
-  G4ThreeVector posShell = G4ThreeVector(0*cm, 0*cm, 1.*cm);
+  G4ThreeVector posShell = G4ThreeVector(0*cm, 0*cm, -1.*cm);
   new G4PVPlacement(0,
                     posShell,
                     logicShell,
@@ -103,7 +103,7 @@ G4VPhysicalVolume* TestDetectorConstruction::Construct()  //construct geometry i
                     0,
                     checkOverlaps);
 
-  G4ThreeVector posLid = G4ThreeVector(0*cm, 0*cm, -4.001*cm);
+  G4ThreeVector posLid = G4ThreeVector(0*cm, 0*cm, 4.001*cm);
   new G4PVPlacement(0,
                     posLid,
                     logicLid,
@@ -132,5 +132,5 @@ G4VisAttributes* visLid = new G4VisAttributes(G4Colour(1.0,1.0,0.0));
 visLid->SetForceSolid(true);
 logicLid->SetVisAttributes(visLid);
 
-  return physWorld;
+return physWorld;
 }

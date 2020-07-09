@@ -27,6 +27,7 @@ TestPrimaryGeneratorAction::TestPrimaryGeneratorAction()
   fParticleGun->SetParticleDefinition(particle);
   fParticleGun->SetParticleMomentumDirection(G4ThreeVector(-1.*cm,0.*cm,0.*cm));
   fParticleGun->SetParticleEnergy(1.*MeV);
+  fParticleGun->SetParticlePosition(G4ThreeVector(25.*cm,0.*cm,0.*cm));
 }
 
 
@@ -73,7 +74,6 @@ void TestPrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
   // G4double y0 = size * envSizeXY * (G4UniformRand()-0.5);
   // G4double z0 = -0.5 * envSizeZ;
   
-  fParticleGun->SetParticlePosition(G4ThreeVector(25.*cm,0.*cm,0.*cm));
 
   fParticleGun->GeneratePrimaryVertex(anEvent);
 }

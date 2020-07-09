@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../include/TestDetectorConstruction.hh
-G4VUserDetectorConstruction.hh
-../include/G4VUserDetectorConstruction.hh
-globals.hh
-../include/globals.hh
-
 ../include/TestPrimaryGeneratorAction.hh
 G4VUserPrimaryGeneratorAction.hh
 ../include/G4VUserPrimaryGeneratorAction.hh
@@ -562,36 +556,6 @@ G4VSolid.hh
 
 /Users/dchen/Documents/geant4/install/include/Geant4/G4ClassificationOfNewTrack.hh
 
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Color.hh
-G4Colour.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Colour.hh
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Colour.hh
-globals.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/globals.hh
-G4ThreeVector.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4ThreeVector.hh
-iostream
--
-map
--
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Cons.hh
-G4GeomTypes.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4GeomTypes.hh
-G4UCons.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4UCons.hh
-CLHEP/Units/PhysicalConstants.h
--
-G4CSGSolid.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4CSGSolid.hh
-G4Polyhedron.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Polyhedron.hh
-G4Cons.icc
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Cons.icc
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Cons.icc
-
 /Users/dchen/Documents/geant4/install/include/Geant4/G4DCofThisEvent.hh
 globals.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/globals.hh
@@ -824,14 +788,6 @@ G4VHitsCollection.hh
 vector
 -
 
-/Users/dchen/Documents/geant4/install/include/Geant4/G4ICRU90StoppingData.hh
-globals.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/globals.hh
-G4Material.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Material.hh
-G4LPhysicsFreeVector.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4LPhysicsFreeVector.hh
-
 /Users/dchen/Documents/geant4/install/include/Geant4/G4IonisParamElm.hh
 G4ios.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4ios.hh
@@ -863,10 +819,6 @@ vector
 -
 G4Isotope.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4Isotope.hh
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4LPhysicsFreeVector.hh
-G4PhysicsFreeVector.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4PhysicsFreeVector.hh
 
 /Users/dchen/Documents/geant4/install/include/Geant4/G4Log.hh
 limits
@@ -1074,50 +1026,6 @@ G4Navigator.icc
 
 /Users/dchen/Documents/geant4/install/include/Geant4/G4Navigator.icc
 
-/Users/dchen/Documents/geant4/install/include/Geant4/G4NistElementBuilder.hh
-vector
--
-CLHEP/Units/PhysicalConstants.h
--
-globals.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/globals.hh
-G4Element.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Element.hh
-G4Threading.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Threading.hh
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4NistManager.hh
-vector
--
-CLHEP/Units/PhysicalConstants.h
--
-globals.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/globals.hh
-G4Material.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Material.hh
-G4NistElementBuilder.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4NistElementBuilder.hh
-G4NistMaterialBuilder.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4NistMaterialBuilder.hh
-G4ICRU90StoppingData.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4ICRU90StoppingData.hh
-G4Pow.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Pow.hh
-G4Threading.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Threading.hh
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4NistMaterialBuilder.hh
-vector
--
-CLHEP/Units/PhysicalConstants.h
--
-globals.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/globals.hh
-G4Material.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Material.hh
-G4Threading.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Threading.hh
-
 /Users/dchen/Documents/geant4/install/include/Geant4/G4Normal3D.hh
 globals.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/globals.hh
@@ -1144,22 +1052,6 @@ G4NormalNavigation.icc
 
 /Users/dchen/Documents/geant4/install/include/Geant4/G4NormalNavigation.icc
 
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Orb.hh
-G4GeomTypes.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4GeomTypes.hh
-G4UOrb.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4UOrb.hh
-CLHEP/Units/PhysicalConstants.h
--
-G4CSGSolid.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4CSGSolid.hh
-G4Polyhedron.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Polyhedron.hh
-G4Orb.icc
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Orb.icc
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Orb.icc
-
 /Users/dchen/Documents/geant4/install/include/Geant4/G4OrderedTable.hh
 globals.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/globals.hh
@@ -1177,12 +1069,6 @@ pwdefs.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/pwdefs.hh
 G4AutoLock.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4AutoLock.hh
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4PVPlacement.hh
-G4VPhysicalVolume.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4VPhysicalVolume.hh
-G4Transform3D.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Transform3D.hh
 
 /Users/dchen/Documents/geant4/install/include/Geant4/G4ParameterisedNavigation.hh
 G4Types.hh
@@ -1286,14 +1172,6 @@ map
 G4ParticleDefinition.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4ParticleDefinition.hh
 
-/Users/dchen/Documents/geant4/install/include/Geant4/G4PhysicsFreeVector.hh
-globals.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/globals.hh
-G4PhysicsVector.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4PhysicsVector.hh
-G4DataVector.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4DataVector.hh
-
 /Users/dchen/Documents/geant4/install/include/Geant4/G4PhysicsModelCatalog.hh
 globals.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/globals.hh
@@ -1365,16 +1243,6 @@ HepPolyhedron.h
 /Users/dchen/Documents/geant4/install/include/Geant4/HepPolyhedron.h
 G4Visible.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4Visible.hh
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Pow.hh
-globals.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/globals.hh
-G4Log.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Log.hh
-G4Exp.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Exp.hh
-G4DataVector.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4DataVector.hh
 
 /Users/dchen/Documents/geant4/install/include/Geant4/G4PrimaryParticle.hh
 globals.hh
@@ -1581,22 +1449,6 @@ G4SmartVoxelProxy.icc
 /Users/dchen/Documents/geant4/install/include/Geant4/G4SmartVoxelProxy.icc
 
 /Users/dchen/Documents/geant4/install/include/Geant4/G4SmartVoxelProxy.icc
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Sphere.hh
-G4GeomTypes.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4GeomTypes.hh
-G4USphere.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4USphere.hh
-CLHEP/Units/PhysicalConstants.h
--
-G4CSGSolid.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4CSGSolid.hh
-G4Polyhedron.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Polyhedron.hh
-G4Sphere.icc
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Sphere.icc
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Sphere.icc
 
 /Users/dchen/Documents/geant4/install/include/Geant4/G4StackManager.hh
 G4UserStackingAction.hh
@@ -1894,36 +1746,6 @@ globals.hh
 CLHEP/Geometry/Transform3D.h
 -
 
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Trd.hh
-G4GeomTypes.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4GeomTypes.hh
-G4UTrd.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4UTrd.hh
-G4CSGSolid.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4CSGSolid.hh
-G4Polyhedron.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Polyhedron.hh
-G4Trd.icc
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Trd.icc
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Trd.icc
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Tubs.hh
-G4GeomTypes.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4GeomTypes.hh
-G4UTubs.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4UTubs.hh
-CLHEP/Units/PhysicalConstants.h
--
-G4CSGSolid.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4CSGSolid.hh
-G4Polyhedron.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Polyhedron.hh
-G4Tubs.icc
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Tubs.icc
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Tubs.icc
-
 /Users/dchen/Documents/geant4/install/include/Geant4/G4Types.hh
 G4GlobalConfig.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4GlobalConfig.hh
@@ -1966,14 +1788,6 @@ volumes/UnplacedBox.h
 G4Polyhedron.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4Polyhedron.hh
 
-/Users/dchen/Documents/geant4/install/include/Geant4/G4UCons.hh
-G4UAdapter.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4UAdapter.hh
-volumes/UnplacedCone.h
--
-G4Polyhedron.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Polyhedron.hh
-
 /Users/dchen/Documents/geant4/install/include/Geant4/G4UIcommand.hh
 G4UIparameter.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4UIparameter.hh
@@ -2009,38 +1823,6 @@ G4UItokenNum.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4UItokenNum.hh
 globals.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/globals.hh
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4UOrb.hh
-G4UAdapter.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4UAdapter.hh
-volumes/UnplacedOrb.h
--
-G4Polyhedron.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Polyhedron.hh
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4USphere.hh
-G4UAdapter.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4UAdapter.hh
-volumes/UnplacedSphere.h
--
-G4Polyhedron.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Polyhedron.hh
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4UTrd.hh
-G4UAdapter.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4UAdapter.hh
-volumes/UnplacedTrd.h
--
-G4Polyhedron.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Polyhedron.hh
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4UTubs.hh
-G4UAdapter.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4UAdapter.hh
-volumes/UnplacedTube.h
--
-G4Polyhedron.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Polyhedron.hh
 
 /Users/dchen/Documents/geant4/install/include/Geant4/G4UserStackingAction.hh
 G4ClassificationOfNewTrack.hh
@@ -2210,12 +1992,6 @@ map
 G4ThreeVector.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4ThreeVector.hh
 
-/Users/dchen/Documents/geant4/install/include/Geant4/G4VUserDetectorConstruction.hh
-vector
--
-globals.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/globals.hh
-
 /Users/dchen/Documents/geant4/install/include/Geant4/G4VUserEventInformation.hh
 
 /Users/dchen/Documents/geant4/install/include/Geant4/G4VUserPrimaryGeneratorAction.hh
@@ -2227,26 +2003,6 @@ globals.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4VVolumeMaterialScanner.hh
 G4Types.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4Types.hh
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4VisAttributes.hh
-globals.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/globals.hh
-vector
--
-map
--
-graphics_reps_defs.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/graphics_reps_defs.hh
-G4Colour.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Colour.hh
-G4Color.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Color.hh
-CLHEP/Units/SystemOfUnits.h
--
-G4VisAttributes.icc
-/Users/dchen/Documents/geant4/install/include/Geant4/G4VisAttributes.icc
-
-/Users/dchen/Documents/geant4/install/include/Geant4/G4VisAttributes.icc
 
 /Users/dchen/Documents/geant4/install/include/Geant4/G4VisExtent.hh
 globals.hh
@@ -2380,10 +2136,6 @@ G4Exception.hh
 G4EnvironmentUtils.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4EnvironmentUtils.hh
 
-/Users/dchen/Documents/geant4/install/include/Geant4/graphics_reps_defs.hh
-G4Types.hh
-/Users/dchen/Documents/geant4/install/include/Geant4/G4Types.hh
-
 /Users/dchen/Documents/geant4/install/include/Geant4/pwdefs.hh
 G4Types.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4Types.hh
@@ -2403,38 +2155,6 @@ G4GlobalConfig.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/trkdefs.hh
 G4Types.hh
 /Users/dchen/Documents/geant4/install/include/Geant4/G4Types.hh
-
-/Users/dchen/Documents/phys449/cylinder/src/TestDetectorConstruction.cc
-TestDetectorConstruction.hh
-/Users/dchen/Documents/phys449/cylinder/src/TestDetectorConstruction.hh
-G4RunManager.hh
-/Users/dchen/Documents/phys449/cylinder/src/G4RunManager.hh
-G4NistManager.hh
-/Users/dchen/Documents/phys449/cylinder/src/G4NistManager.hh
-G4Material.hh
-/Users/dchen/Documents/phys449/cylinder/src/G4Material.hh
-G4Box.hh
-/Users/dchen/Documents/phys449/cylinder/src/G4Box.hh
-G4Cons.hh
-/Users/dchen/Documents/phys449/cylinder/src/G4Cons.hh
-G4Tubs.hh
-/Users/dchen/Documents/phys449/cylinder/src/G4Tubs.hh
-G4VisAttributes.hh
-/Users/dchen/Documents/phys449/cylinder/src/G4VisAttributes.hh
-G4Colour.hh
-/Users/dchen/Documents/phys449/cylinder/src/G4Colour.hh
-G4Orb.hh
-/Users/dchen/Documents/phys449/cylinder/src/G4Orb.hh
-G4Sphere.hh
-/Users/dchen/Documents/phys449/cylinder/src/G4Sphere.hh
-G4Trd.hh
-/Users/dchen/Documents/phys449/cylinder/src/G4Trd.hh
-G4LogicalVolume.hh
-/Users/dchen/Documents/phys449/cylinder/src/G4LogicalVolume.hh
-G4PVPlacement.hh
-/Users/dchen/Documents/phys449/cylinder/src/G4PVPlacement.hh
-G4SystemOfUnits.hh
-/Users/dchen/Documents/phys449/cylinder/src/G4SystemOfUnits.hh
 
 /Users/dchen/Documents/phys449/cylinder/src/TestPrimaryGeneratorAction.cc
 TestPrimaryGeneratorAction.hh
