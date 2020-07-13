@@ -7,7 +7,7 @@
 #else
 #include "G4RunManager.hh"
 #endif
-#include "G4ScoringManager.hh"
+
 #include "G4UImanager.hh"
 #include "QGSP_BIC_HP.hh"
 
@@ -30,7 +30,6 @@ int main(int argc, char** argv)
   G4MTRunManager* runManager = new G4MTRunManager;
 #else
   G4RunManager* runManager = new G4RunManager;
-  G4ScoringManager* scoringManager = G4ScoringManager::GetScoringManager();
 #endif
 
   // Set mandatory initialization classes
