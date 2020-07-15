@@ -258,7 +258,7 @@ void B4dDetectorConstruction::ConstructSDandField()
   primitive = new G4PSCellFlux("Edep");
   absDetector->RegisterPrimitive(primitive);
 
-  primitive = new G4PSCellFlux("TrackLength");
+  primitive = new G4PSTrackLength("TrackLength");
   auto charged = new G4SDChargedFilter("chargedFilter");
   primitive ->SetFilter(charged);
   absDetector->RegisterPrimitive(primitive);  
