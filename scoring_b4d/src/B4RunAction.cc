@@ -114,25 +114,26 @@ void B4RunAction::EndOfRunAction(const G4Run* /*run*/)
       G4cout << "for the local thread " << G4endl << G4endl; 
     }
     
-    G4cout << " EAbs : mean = " 
-       << G4BestUnit(analysisManager->GetH1(0)->mean(), "Energy") 
+    G4cout <<"--------------------------------------------\n"<< " Cell flux : mean = " 
+       << G4BestUnit(analysisManager->GetH1(0), "Mass/Surface") 
        << " rms = " 
-       << G4BestUnit(analysisManager->GetH1(0)->rms(),  "Energy") << G4endl;
+       << G4BestUnit(analysisManager->GetH1(0)->rms(),  "Mass/Surface") 
+       <<"\n--------------------------------------------\n"<< G4endl;
     
-    G4cout << " EGap : mean = " 
-       << G4BestUnit(analysisManager->GetH1(1)->mean(), "Energy") 
-       << " rms = " 
-       << G4BestUnit(analysisManager->GetH1(1)->rms(),  "Energy") << G4endl;
+    // G4cout << " EGap : mean = " 
+    //    << G4BestUnit(analysisManager->GetH1(1)->mean(), "Energy") 
+    //    << " rms = " 
+    //    << G4BestUnit(analysisManager->GetH1(1)->rms(),  "Energy") << G4endl;
     
-    G4cout << " LAbs : mean = " 
-      << G4BestUnit(analysisManager->GetH1(2)->mean(), "Length") 
-      << " rms = " 
-      << G4BestUnit(analysisManager->GetH1(2)->rms(),  "Length") << G4endl;
+    // G4cout << " LAbs : mean = " 
+    //   << G4BestUnit(analysisManager->GetH1(2)->mean(), "Length") 
+    //   << " rms = " 
+    //   << G4BestUnit(analysisManager->GetH1(2)->rms(),  "Length") << G4endl;
 
-    G4cout << " LGap : mean = " 
-      << G4BestUnit(analysisManager->GetH1(3)->mean(), "Length") 
-      << " rms = " 
-      << G4BestUnit(analysisManager->GetH1(3)->rms(),  "Length") << G4endl;
+    // G4cout << " LGap : mean = " 
+    //   << G4BestUnit(analysisManager->GetH1(3)->mean(), "Length") 
+    //   << " rms = " 
+    //   << G4BestUnit(analysisManager->GetH1(3)->rms(),  "Length") << G4endl;
   }
 
   // save histograms & ntuple
