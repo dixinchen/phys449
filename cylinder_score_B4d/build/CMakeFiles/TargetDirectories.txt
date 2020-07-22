@@ -1,7 +1,0 @@
-/Users/dchen/Documents/phys449/cylinder_score_B4d/build/CMakeFiles/install/local.dir
-/Users/dchen/Documents/phys449/cylinder_score_B4d/build/CMakeFiles/install/strip.dir
-/Users/dchen/Documents/phys449/cylinder_score_B4d/build/CMakeFiles/install.dir
-/Users/dchen/Documents/phys449/cylinder_score_B4d/build/CMakeFiles/list_install_components.dir
-/Users/dchen/Documents/phys449/cylinder_score_B4d/build/CMakeFiles/exampleB4d.dir
-/Users/dchen/Documents/phys449/cylinder_score_B4d/build/CMakeFiles/rebuild_cache.dir
-/Users/dchen/Documents/phys449/cylinder_score_B4d/build/CMakeFiles/edit_cache.dir

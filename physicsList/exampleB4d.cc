@@ -1,3 +1,32 @@
+//
+// ********************************************************************
+// * License and Disclaimer                                           *
+// *                                                                  *
+// * The  Geant4 software  is  copyright of the Copyright Holders  of *
+// * the Geant4 Collaboration.  It is provided  under  the terms  and *
+// * conditions of the Geant4 Software License,  included in the file *
+// * LICENSE and available at  http://cern.ch/geant4/license .  These *
+// * include a list of copyright holders.                             *
+// *                                                                  *
+// * Neither the authors of this software system, nor their employing *
+// * institutes,nor the agencies providing financial support for this *
+// * work  make  any representation or  warranty, express or implied, *
+// * regarding  this  software system or assume any liability for its *
+// * use.  Please see the license in the file  LICENSE  and URL above *
+// * for the full disclaimer and the limitation of liability.         *
+// *                                                                  *
+// * This  code  implementation is the result of  the  scientific and *
+// * technical work of the GEANT4 collaboration.                      *
+// * By using,  copying,  modifying or  distributing the software (or *
+// * any work based  on the software)  you  agree  to acknowledge its *
+// * use  in  resulting  scientific  publications,  and indicate your *
+// * acceptance of all terms of the Geant4 Software license.          *
+// ********************************************************************
+//
+//
+/// \file exampleB4d.cc
+/// \brief Main program of the B4d example
+
 #include "B4dDetectorConstruction.hh"
 #include "B4dActionInitialization.hh"
 #include "B4Analysis.hh"
@@ -9,7 +38,7 @@
 #endif
 
 #include "G4UImanager.hh"
-#include "QGSP_BIC_HP.hh"
+#include "B4PhysicsList.hh"
 #include "G4VisExecutive.hh"
 #include "G4UIExecutive.hh"
 #include "Randomize.hh"
@@ -83,7 +112,7 @@ int main(int argc,char** argv)
   auto detConstruction = new B4dDetectorConstruction();
   runManager->SetUserInitialization(detConstruction);
 
-  auto physicsList = new QGSP_BIC_HP;
+  auto physicsList = new B4PhysicsList();
   runManager->SetUserInitialization(physicsList);
 
   auto actionInitialization = new B4dActionInitialization();
@@ -100,7 +129,7 @@ int main(int argc,char** argv)
 
   // Activate score ntuple writer
   // The Root output type (Root) is selected in B3Analysis.hh.
-  // G4TScoreNtupleWriter<G4AnalysisManager> scoreNtupleWriter;
+  G4TScoreNtupleWriter<G4AnalysisManager> scoreNtupleWriter;
   // The verbose level can be set via UI commands
   // /score/ntuple/writerVerbose level
   // or via the score ntuple writer function:
