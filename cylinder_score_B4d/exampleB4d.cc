@@ -9,7 +9,7 @@
 #endif
 
 #include "G4UImanager.hh"
-#include "QGSP_BIC_HP.hh"
+#include "B4PhysicsList.hh"
 #include "G4VisExecutive.hh"
 #include "G4UIExecutive.hh"
 #include "Randomize.hh"
@@ -83,7 +83,7 @@ int main(int argc,char** argv)
   auto detConstruction = new B4dDetectorConstruction();
   runManager->SetUserInitialization(detConstruction);
 
-  auto physicsList = new QGSP_BIC_HP;
+  auto physicsList = new B4PhysicsList();
   runManager->SetUserInitialization(physicsList);
 
   auto actionInitialization = new B4dActionInitialization();

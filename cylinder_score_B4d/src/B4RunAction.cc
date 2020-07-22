@@ -4,6 +4,7 @@
 #include "G4Run.hh"
 #include "G4RunManager.hh"
 #include "G4UnitsTable.hh"
+// #include "G4AnalysisManager.hh"
 #include "G4SystemOfUnits.hh"
 
 B4RunAction::B4RunAction()
@@ -18,6 +19,7 @@ B4RunAction::B4RunAction()
   auto analysisManager = G4AnalysisManager::Instance();
   G4cout << "Using " << analysisManager->GetType() << G4endl;
 
+  analysisManager->CreateH1("Flux","Flux in cylinder", 100, 0., 8*MeV);
 }
 
 B4RunAction::~B4RunAction()
@@ -35,8 +37,8 @@ void B4RunAction::EndOfRunAction(const G4Run* /*run*/)
   auto analysisManager = G4AnalysisManager::Instance();
     
   G4cout <<"--------------------------------------------\n"<< " Cell flux : mean = " 
-      << G4BestUnit(analysisManager->GetH1(0)->mean(),  "Surface")
+      << analysisManager->GetH1(0)->mean()
       << " rms = " 
-      << G4BestUnit(analysisManager->GetH1(0)->rms(),  "Surface") 
+      << analysisManager->GetH1(0)->rms()
       <<"\n--------------------------------------------\n"<< G4endl;
 }

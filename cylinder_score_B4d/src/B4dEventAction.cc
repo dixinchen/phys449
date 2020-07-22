@@ -51,7 +51,7 @@ G4double B4dEventAction::GetSum(G4THitsMap<G4double>* hitsMap) const
 void B4dEventAction::PrintEventStatistics(G4double flux) const
 {
   // Print event statistics
-  //
+  auto analysisManager = G4AnalysisManager::Instance();
   G4cout
      << "   Cylinder: flux: " 
      << std::setw(7) << G4BestUnit(analysisManager->GetH1(0)->mean(),  "Surface")  /*std::to_string(flux)*/
@@ -63,7 +63,7 @@ void B4dEventAction::BeginOfEventAction(const G4Event* /*event*/)
 
 void B4dEventAction::EndOfEventAction(const G4Event* event)
 {  
-   // Get hist collections IDs
+  auto analysisManager = G4AnalysisManager::Instance();
   if ( fFluxHCID == -1 ) {
     fFluxHCID 
       = G4SDManager::GetSDMpointer()->GetCollectionID("Cylinder/Flux");
@@ -74,7 +74,7 @@ void B4dEventAction::EndOfEventAction(const G4Event* event)
   auto flux = GetSum(GetHitsCollection(fFluxHCID, event));
 
   // get analysis manager
-  auto analysisManager = G4AnalysisManager::Instance();
+
 
   // fill histograms
   //  
