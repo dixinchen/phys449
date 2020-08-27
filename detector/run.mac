@@ -1,0 +1,51 @@
+
+########################################
+#
+# define scoring mesh
+#
+/score/create/tubsMesh tubsMesh_1
+#
+/score/mesh/tubsSize 0. 4. 3.5 0 360. cm
+/score/mesh/nBin 0.5 0.5 0.5 0 1
+#
+/score/quantity/cellFlux
+#
+/score/close
+#
+/score/list
+#
+########################################
+#
+/vis/disable
+/control/verbose 2
+/run/verbose 2
+#######/event/verbose 1
+#######/tracking/verbose 1
+#######/vis/verbose confirmations
+/run/beamOn 1
+/vis/enable
+#
+########################################
+#
+# drawing projections
+#
+/score/drawProjection tubsMesh_1 cellFlux
+#
+########################################
+#
+# drawing slices
+#
+# new scene and viewer
+#/vis/open OGL
+#/vis/drawVolume world
+#/vis/viewer/copyViewFrom viewer-0
+#/score/colorMap/setMinMax ! 0. 800.
+#/control/loop drawSlice.mac iColumn 0 29 7
+#
+########################################
+#
+# Dump scorers to a file
+#
+/score/dumpQuantityToFile tubsMesh_1 nOfStepGamma nOfStepGamma.txt
+#
+#
